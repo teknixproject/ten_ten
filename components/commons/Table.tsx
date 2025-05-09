@@ -28,9 +28,12 @@ const SampleTable: React.FC = () => {
 
   return (
     <div className="w-full">
+      <div className="mb-4">
+        <h1 className="text-2xl font-bold" style={{ color: '#D50B8B' }}>Table Hihihaha</h1>
+      </div>
       <table className="min-w-full table-auto">
         <thead>
-          <tr className="bg-gray-200">
+          <tr className="bg-blue-500 text-white">
             <th className="px-4 py-2 text-left">Name</th>
             <th className="px-4 py-2 text-left">Age</th>
             <th className="px-4 py-2 text-left">Address</th>
